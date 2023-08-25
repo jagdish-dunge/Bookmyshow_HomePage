@@ -1,6 +1,7 @@
 import React from 'react'
 import Movies from './Movies'
 import Eventslider from './Eventslider';
+import Premiere from './Premiere';
 
 function Navbar() {
     return (
@@ -20,7 +21,7 @@ function Navbar() {
                     <button>Sign in</button>
                 </div>
             </nav>
-
+     
             <div className="menu">
                 <div className="rightmenu">
                     <a href="">movies</a>
@@ -83,6 +84,16 @@ function Navbar() {
             </div>
             <h1 className='event'>The Best Of Live Events</h1>
             <Eventslider></Eventslider>
+<div>
+<div className="premiere">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/premiere-banner-web-collection-202208191200.png" alt="" width={"100%" } />
+            </div>
+            <div className="premier-heading">
+            <h1 >Premieres </h1>
+            <p>Brand new release every friday</p>
+            </div>
+            <Premiere></Premiere>
+            </div>
         </div>
         // ---
     )
