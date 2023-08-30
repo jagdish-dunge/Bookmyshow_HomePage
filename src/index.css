@@ -11,7 +11,7 @@ body {
   width: 100%;
 }
 
-.navbar {
+ .navbar {
   background: #333545;
   display: flex;
   justify-content: space-around;
@@ -23,10 +23,10 @@ body {
 
   align-items: center;
   /* position: relative; */
-
 }
 
-.right input {
+
+ .right input {
 
   width: 500px;
   padding: 10px;
@@ -56,7 +56,7 @@ body {
   background: #f84464;
   border: none;
   color: white;
-}
+} 
 
 /* -----------------------menu----------------------- */
 

@@ -40,9 +40,7 @@ const everyfriday = [
 function Premiere() {
     return (
         <div className='pre-cantaint'>
-            {/* <div className="premiere">
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/premiere-banner-web-collection-202208191200.png" alt="" />
-            </div> */}
+            
 
             {
                 everyfriday.map((x)=>{

@@ -2,14 +2,17 @@ import React from 'react'
 import Movies from './Movies'
 import Eventslider from './Eventslider';
 import Premiere from './Premiere';
+import { Link} from 'react-router-dom';
 
 function Navbar() {
     return (
         <div>
-
-            <nav className='navbar'>
+  
+            {/* <nav className='navbar'>
                 <div className='right'>
+                    <Link to='/'>
                     <img src="https://in.bmscdn.com/webin/common/icons/logo.svg" alt="" />
+                    </Link>
 
                     <input type="text" name="" id="" placeholder='Search for movies here' />
                 </div>
@@ -25,13 +28,14 @@ function Navbar() {
             <div className="menu">
                 <div className="rightmenu">
                     <a href="">movies</a>
-                    <a href="">Stream</a>
+                    <Link to="/Stream">Stream</Link>
+                   
                     <a href="">Events</a>
                     <a href="">Plays</a>
                     <a href="">Sports</a>
-                    <a href="">Activities</a>
-                    <a href="">Buzz</a>
-                    <a href=""><img src="https://assets-in.bmscdn.com/static/2023/08/cwc23.png" alt="" width={"250px"} /></a>
+                    <Link to="/Activity">Activities</Link>
+                    <Link to ="/Buzz">Buzz</Link>
+                        <Link to="Icc"> <img src="https://assets-in.bmscdn.com/static/2023/08/cwc23.png" alt="" width={"250px"} /></Link>
                 </div>
 
                 <div className="menuleft">
@@ -41,7 +45,7 @@ function Navbar() {
                     <a href="">Gift Cards</a>
 
                 </div>
-            </div>
+            </div> */}
 
             <div className="slide">
                 <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1691130965445_wwesuperstardesktop.jpg" alt="" />
